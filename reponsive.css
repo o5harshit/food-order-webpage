@@ -1,0 +1,62 @@
+/*making services container responsive*/
+.services-div{
+    flex-direction: column;
+    align-items: center;
+}
+.pizza{
+    margin:10px;
+}
+.social-media{
+    height:70px;
+    width:60px;
+    flex-wrap: wrap;
+}
+.nav-bar{
+    flex-direction: column;
+}
+.content-cont p{
+    font-size:13px;
+   /* padding:3px 117px;*/
+}
+.content-cont h2{
+    font-size: 18px;
+    font-weight:200;
+}
+.container{
+    height:90vh;
+}
+.btn-one{
+    width:80px;
+    padding: 5px;
+    margin-bottom: 3px;
+    font-size:12px;
+}
+.center{
+    font-size: 12px;
+}
+.content-box{
+    width:20rem;
+}
+.content{
+    padding: 3px;
+}
+.image-pizza{
+    margin:7px;
+}
+.pizza{
+    width:250px
+}
+.nav-option li{
+    margin:3px;
+    padding: 5px;
+}
+.contact-box input{
+    font-size: 0.6rem;
+}
+.contact-box textarea{
+    height:60px;
+    width:100%;
+}
+.lists li a {
+    font-size: 0.8rem;
+}
