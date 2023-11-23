@@ -1,0 +1,178 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-image:url(foodi.jpg);
+    height:80vh;
+    background-size: cover;
+}
+.logo{
+    margin: 10px;
+    margin-bottom: 5px;
+    border: 2px solid transparent;
+}
+.logo:hover{
+    border: 2px solid whitesmoke;
+}
+.harry{
+    height:50px;
+    width:50px;
+    cursor:pointer;
+}
+.nav-bar{
+    display:flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.471);
+}
+.lists li{
+    list-style: none;
+    margin-left:20px;
+    padding:10px;
+    border: 2px solid transparent;
+    cursor:pointer;
+}
+.lists{
+     display: flex;
+     font-size: 1rem;
+}
+.lists li:hover{
+   /* border: 2px solid transparent;*/
+    border-radius: 20px;
+    background-color: coral;
+    color:white;
+}
+.lists li a{
+    text-decoration: none;
+    color:#DDDDDD;
+}
+.content-cont{
+    display:flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content-cont p{
+    font-size:1.5rem;
+    margin:20px;
+    font-family: cursive;
+}
+.content-cont h2{
+    font-family: EB Garamond serif ;
+    font-weight: 200;
+    font-size: 2rem;
+}
+.btn-one{
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    color:azure;
+    background-color:#009687b6;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+}
+.btn-one:hover{
+    box-shadow: 5px 5px chocolate;
+    cursor:pointer;
+}
+.h2-services{
+    text-align: center;
+    font-family: EB Garamond serif ;
+    font-weight: 200;
+    font-size: 1.7rem;
+    margin:30px;
+}
+.services-div{
+    display:flex;
+    justify-content: space-evenly;
+}
+.pizza{
+    height:500px;
+    width:300px;
+    border:5px solid brown;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+.image-pizza{
+    text-align: center;
+    margin:20px;
+   /* margin-bottom: 40px;*/
+}
+.la-pino{
+     height: 200px;
+     width:200px;
+     cursor:pointer;
+}
+.content {
+    padding: 0.625rem;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size:1rem;
+}
+.clients-section{
+    background-image: url(foodies.jpg);
+    height:30vh;
+    background-size:cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-media{
+    height:120px;
+    width:120px;
+    margin:20px;
+    cursor:pointer;
+}
+.contact-heading{
+    text-align: center;
+    font-family: EB Garamond serif ;
+    font-weight: 200;
+    font-size: 1.7rem;
+    padding:30px;
+    color:azure;
+}
+.head-contact{
+    background-image: url("socail.avif");
+    height:100%;
+    width:100%;
+}
+.contact-box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:34px;
+}
+footer{
+    height: 10vh;
+    background-color: black;
+}
+.center{
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+.content-box{
+    padding:10px;
+    padding-left: 0px;
+    padding-right: 0px ;
+    color:#f2f2f2;
+    width:600px;
+}
+.contact-box input,
+.contact-box textarea{
+  width:100%;
+  padding:0.5rem;
+  border-radius:9px;
+  font-size: 1.1rem;
+}
+.contact-box form{
+    width:40%;
+}
+.contact-box label{
+    font-size: 1rem;
+    color:#f2f2f2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
